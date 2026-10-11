@@ -1,0 +1,15 @@
+# Enable or disable the redirection of the Advancements button.
+enabled: true
+
+# !! IMPORTANT !!
+# If you enable "disable-saving" in spigot.yml, you must use the provided datapack.
+# Otherwise, the advancements menu is empty and the plugin cannot detect when the menu is opened.
+
+# Command(s) executed when the player opens the Advancements menu.
+# Note that the advancement menu does not close automatically.
+# Use {player} as placeholder for the player name.
+# Prefix with [player] to run as the player, [console] to run from console.
+# If no prefix is given, it runs from console.
+commands:
+  - "[console] execute at {player} run playsound minecraft:entity.ender_dragon.death ui {player}"
+  - "[console] tell {player} Trigger"

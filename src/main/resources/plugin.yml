@@ -1,0 +1,20 @@
+name: AdvancementButtonCustomCommand
+version: '${version}'
+
+main: fr.toni_4819.advancementButtonCustomCommand.AdvancementButtonCustomCommand
+api-version: '1.21'
+depend: [packetevents]
+
+authors: [ Toni_4819 ]
+website: https://toni4819.github.io/
+description: Redirects the vanilla Advancements menu to a custom server-side command.
+
+commands:
+  advancementbuttoncustomcommand:
+    description: Reload the plugin.
+    permission: advancementbuttoncustomcommand.reload
+    usage: /advancementbuttoncustomcommand reload
+    aliases: [abcc]
+permissions:
+  advancementbuttoncustomcommand.reload:
+    default: op
