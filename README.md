@@ -39,6 +39,8 @@ Perfect for servers that want to replace the vanilla Advancements screen with th
 
 The plugin ships with a small datapack that creates a **dummy advancement**, which is required to force the client to send the `OPENED_TAB` packet.
 
+Link: [AdvancementButtonCustomCommand-datapack-v1.0.zip](https://github.com/Toni4819/AdvancementButtonCustomCommand-plugin/releases/download/v1.0/AdvancementButtonCustomCommand-datapack-v1.0.zip)
+
 Place it in your datapacks folder `world/datapacks/`
 
 > ⚠️ **If you enable `disable-saving` in `spigot.yml`, you must use the provided datapack.** Otherwise the dummy advancement won't work and the button will do nothing.
