@@ -19,7 +19,7 @@ repositories {
 
 
 dependencies {
-    compileOnly("org.spigotmc:spigot-api:1.21-R0.1-SNAPSHOT")
+    compileOnly("org.spigotmc:spigot-api:1.21.11-R0.2-SNAPSHOT")
     compileOnly("com.github.retrooper:packetevents-spigot:2.14.0")
     compileOnly("com.frengor:ultimateadvancementapi:2.8.2")
 }
